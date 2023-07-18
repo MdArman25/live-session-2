@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap');
+
+
+
+
+
+/* color section */
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    /* padding: 0px; */
+}
+
+header{
+    background-color: blueviolet;
+    width: auto;
+}
+.nav-container{
+    display: flex;
+    max-width:1200px;
+
+  
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+margin-left: 50px;
+  width: 50%;
+
+}
+.hive-png{
+    width: 70px ;
+}
+.nav-text{
+    width: 50%;
+display:flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+
+}
+.nav-text li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-text li{
+    list-style: none;
+}
+.login-btn{
+    background-color:orangered;
+padding: 6px 12px;
+border-radius: 8px;
+color: black;
+}
+.nav-text .login-btn{
+    color: black;
+}
+
+
+.header-container{
+    display: flex;
+    border: 1px solid ;
+    max-width: 1200px;
+    justify-content: center;
+    /* background-color: lightgray; */
+    margin: 50px auto;
+}
+.header-text{
+    width: 50%;
+align-items: center;
+   display: flex;
+   gap: 20px ;
+   flex-direction: column;
+   
+
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.banner-img{
+    width:100%;
+    padding: 20px;
+    border: 1px solid ;
+}
+.header-png{
+    width: 50%;
+}
+
+.header-text img{
+    width: 40px;
+}
+
+.logo-container p>span,.header-text h1{
+    background-image: linear-gradient(to bottom,red,blue);
+    color: transparent;
+-webkit-background-clip:text;
+}
+.header-text h3{font-family: 'Dancing Script', cursive;
+
+}
